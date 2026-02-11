@@ -3,8 +3,8 @@ import requests
 import os
 
 # --- Configuration ---
-excel_file = 'Book1.xlsx'  # <--- MAKE SURE THIS FILENAME IS CORRECT
-output_folder = 'ETF_Reps_NAME_Downloaded_S3_Icons'
+excel_file = ''  # <--- MAKE SURE THIS FILENAME IS CORRECT (INPUT FOLDER)
+output_folder = ''   (OUTPUT FOLDER)
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
